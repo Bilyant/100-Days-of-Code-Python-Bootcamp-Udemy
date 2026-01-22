@@ -1,0 +1,20 @@
+Random module:
+
+Randomisation:
+- very important when we want to create computer programs that have a degree of unpredictability
+- they are most commonly used in building games
+
+Computers perform repeatable actions in a fully predictable way. To get those precise machines to perform random operations, we have to use pseudorandom number generators. The one that Python uses is called the Mersenne Twister.
+
+Modules – definition:
+
+So far, we’ve been writing our code all on the same page in a script-style format. Everything gets executed from top to bottom. Often, our code becomes too long because we’re trying to create something complicated, and it’s no longer possible to understand what’s going on in such a large piece of code. A common practice in this case is to split the code into individual modules, where each module is responsible for a different functionality of the program.
+
+If we have a complex project with many modules, then collaboration becomes possible. Many people can work on the project, with each person or team focusing on a different part. For example, if a factory were building a car, it wouldn’t make sense for one person to build the entire car. Instead, different people would work on different parts.
+
+The random module is an example of a Python module.
+
+Lists:
+
+A data structure — a way of organizing and storing data in Python. We’ve already seen ways of storing single pieces of data, which was achieved through a simple variable. Sometimes, we want to store grouped pieces of data: data that has some sort of connection to each other. In other cases, we might also want to maintain order in our data. For example, if we were storing all the people in a virtual queue, we would want to keep track of the order in which they joined the queue.
+Lists are represented using square brackets, with multiple items stored inside. These items can be of any data type.
