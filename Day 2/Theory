@@ -1,0 +1,16 @@
+When we divide numbers in Python, we always end up with a floating-point number. This is the default Python behavior. It’s called implicit type casting: Python automatically converts the result to a floating-point value.
+
+/ → float division
+// → integer division → what happens behind the scenes is that Python first performs float division and then removes the decimal part
+** → raises a number to a power
+
+When we have more than one operation on the same line of code, there is a certain level of priority. This is defined by a rule called PEMDAS, which states the order of operations:
+
+P → parentheses ()
+E → exponents **
+M → multiplication *
+D → division /
+A → addition +
+S → subtraction -
+
+This can be a little bit deceiving, because the order may make it seem like multiplication happens before division, but in reality they have equal priority. When multiplication and division appear in the same expression, the operation that appears first from left to right is evaluated first.
