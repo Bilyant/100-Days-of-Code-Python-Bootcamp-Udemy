@@ -1,0 +1,12 @@
+Loops:
+- things that have to happen over and over again
+- allow us to execute the same line of code multiple times
+
+For loop:
+- a type of loop
+- can be used in combination with lists
+
+By using a for loop like this, we can go through each item in a list and perform some action on each individual item.
+
+range()
+	- a very useful function which lets us generate a range of numbers to loop through
