@@ -1,0 +1,13 @@
+Content:
+    code blocks
+    indentation
+    functions
+    while loops
+
+Python has a lot of built-in functions that we’ve already been using.
+Functions are usually followed by a set of parentheses.
+To create our own function, we have to start with the keyword def (short for define).
+Then, we have to provide a name for the function.
+
+While loop:
+ - a loop that will continue running while a particular condition is true
